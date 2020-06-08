@@ -6,29 +6,37 @@
 .logo-content{font-size:1px;}
 .logo-header,.logo-content{width: 260px;height: 30px;text-align: justify;}
 .content{height:500px;background-image: url(../images/banner.png);background-repeat: no-repeat;background-size: 100% 100%; -moz-background-size:100% 100%;}
+.select{height:50px;position: relative;}
 .by-id,.by-scan{text-decoration: none;color:black;font-size: 25px;display: block;float: left;margin-top: 5%;}
-.by-id{margin-left: 10%;margin-right: 10%;color:#f56600}
+.by-id{margin-left: 10%;margin-right: 10%;}
 .by-scan{margin-left: 10%;}
 .divide{margin-top: 5%; float: left; width: 2px;height: 40px; background:#b5b5b5;}
-input{height:40px;width:300px;margin-left: 6%;margin-top: 5%;}
+input{height:40px;width:300px;margin-left: 4%;margin-top: 5%;outline:none;}
 .submit{margin-top: 8%;color: white;background-color: #f56600; border: 0px;width:302px;}
 .sign,.forget{text-decoration: none;color:#b5b5b5;font-size: 10px;display: block;float: left;margin-top: 5%;}
-.sign{margin-left: 25%;margin-right: 2%;}
+.sign{margin-left: 16%;margin-right: 2%;}
 .forget{margin-left: 2%;}
 .divide-middle{margin-top: 5%; float: left; width: 2px;height: 15px; background:#b5b5b5;}
-.by-other{margin-top: 30%;width:100%; text-align:left; margin-left:30px;}
+.by-other{margin-top: 15%;width:90%; text-align:left; margin-left:30px;}
 .line{vertical-align:middle; display:inline-block;width:102px;}
 .others{text-decoration: none;color:#b5b5b5;font-size: 10px;}
-
 .bottom{text-align: center;padding-top: 50px;padding-bottom: 80px;}
 .about{line-height: 40px;color:#7b7b7b;}
 span{color:black}
 .police{width:20px;}
 .login-box{background-color:white;width:350px;height:450px;float: right;margin-top: 25px;margin-right: 15%;}
 .all-icons a{display: inline-block;width: 30px;height: 30px;background-color: #7b7b7b;position: relative;border-radius: 50%;margin-right: 20px;}
-.all-icons{margin-top:10px;margin-left: 21%;}
+.all-icons{margin-top:10px;margin-left: 14%;}
 .all-icons .qq{background-position-x: -20px;}
 .all-icons .weibo{background-position-x: -38px;}
 .all-icons .pay{width:24px;margin-left: -12px;background-position-x: -56px;}
 .all-icons .weixin{width: 24px;margin-left: -12px; background-position-x: -83px;}
 .all-icons span{position: absolute;top: 50%;left: 50%;margin-left: -9px;margin-top: -9px;display: inline-block;width:18px;height: 18px;background: url(../images/icons_type.png) no-repeat;}
+.scan-content,.id-content{position: absolute;}
+.scan-content{display: none;}
+.by-id:hover,.by-scan:hover{color:#f56600;}
+.selected{color:#f56600;}
+.scan-content img{margin: 100px 25% 20px}
+.scan-content{text-align: center;font-size: 14px;width:350px}
+.scan-content p{width:350px}
+.scan-content p span{color: #f56600;}
